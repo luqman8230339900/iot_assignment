@@ -5,9 +5,11 @@ This is a simple TCP server which handle multiple clients.
 
 How to run:
 
-Server:
+Server on linux:
 gcc server.c -o server -lpthread
+
 ./server
+
 
 Client:
 gcc client.c -o client -lpthread
