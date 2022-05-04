@@ -13,6 +13,7 @@ gcc server.c -o server -lpthread
 
 Client:
 gcc client.c -o client -lpthread
+
 ./client
 
 Get Parameters from server:
